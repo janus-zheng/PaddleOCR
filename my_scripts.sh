@@ -37,4 +37,5 @@ python tools/infer/predict_system.py --use_gpu=False --use_onnx=True \
 --det_model_dir=./models/det_onnx/model.onnx  \
 --rec_model_dir=./models/rec_onnx/model.onnx  \
 --cls_model_dir=./models/cls_onnx/model.onnx  \
+--rec_char_dict_path="./ppocr/utils/en_dict.txt" \
 --image_dir=./deploy/lite/imgs/lite_demo.png
